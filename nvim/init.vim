@@ -12,11 +12,6 @@ set spell
 set cursorline
 
 
-" Temporary
-
-vnoremap <leader>tb :!python ~/test/parse.py<CR>
-vnoremap <leader>jt :!python ~/test/j2t.py<CR>
-
 lua << EOF
 function is_gnome_dark_mode()
   local handle = io.popen("gsettings get org.gnome.desktop.interface color-scheme")
