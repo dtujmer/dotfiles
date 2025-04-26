@@ -10,5 +10,5 @@ set foldmethod=indent
 set nofoldenable
 set spell
 set cursorline
-
+set textwidth=85
 
